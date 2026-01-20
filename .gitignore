@@ -67,3 +67,37 @@ node_modules/
 
 # dataconnect generated files
 .dataconnect
+
+# Node
+node_modules/
+npm-debug.log
+.npm
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+.runtimeconfig.json
+
+# 環境変数・秘密鍵
+.env
+.env.local
+.env.production
+serviceAccountKey.json
+*-credentials.json
+
+# macOS
+.DS_Store
+
+# バックアップ・一時ファイル
+*.bk
+*.bk.*
+*.backup
+*.tmp
+*~
+
+# エディタ
+.vscode/
+.idea/
+
